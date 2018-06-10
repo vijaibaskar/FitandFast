@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.fitandfast.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/underground_gym" />
+    <!--Image source: https://static1.squarespace.com/static/58b577ae37c581b9c4c0355d/t/5a2e755fe4966be66fe19d26/1512994237514/Underground+Gym+Brighton?format=1000w -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="20sp"
+        android:text="Fit and Fast"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="+1-512-111-222"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="24dp"
+        android:text="1234 Cooper St Austin TX"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="24dp"
+        android:text="Whether you are a beginner or an enthusiast, every program, product and experience we offer begins and ends with creating a premiere and comfortable atmosphere tailored for your individual and overall success and safety."/>
+
+</LinearLayout>
